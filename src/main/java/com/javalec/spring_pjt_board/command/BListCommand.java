@@ -22,6 +22,7 @@ public class BListCommand implements BCommand
 	public void execute(Model model) 
 	{
 		// TODO Auto-generated method stub
+//		/asdfasdfadsf/sadf/asdf/sadfasdfads
 		BDao dao = new BDao();		
 		
 		ArrayList<BDto>dtos = dao.list(blist);
